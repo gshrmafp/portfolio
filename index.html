@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/273e41c7d4.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,900&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png.png" alt="logo" class="logo">
+                <ul>
+                    <li><a href="#header"><span>H</span>ome</a></li>
+                    <li><a href="#about"><span>A</span>bout</a></li>
+                    <li><a href="#services"><span>S</span>ervices</a></li>
+                    <li><a href="#portfolio"><span>P</span>ortfolio</a></li>
+                    <li><a href="#contact"><span>C</span>ontact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Engineering Student</p>
+                <h2>Hi ,I'm <span>Gaurav </span> <br> Jangra from Gurgaon</h2>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="conatainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title"> About Me</h2>
+                    <p> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum nisi earum veniam suscipit porro perspiciatis obcaecati fugit provident a voluptates cupiditate voluptatem mollitia aliquid molestiae, delectus recusandae
+                        odit ratione harum qui dignissimos. <br> Officia maiores exercitationem autem, non animi consequuntur sit veritatis assumenda ad quo delectus, aut quisquam a incidunt similique praesentium ullam deleniti excepturi fugit, voluptas
+                        sapiente quod totam placeat amet! Assumenda autem voluptatibus debitis ullam quisquam minus veritatis temporibus ex libero. Ipsam ducimus doloremque ea error obcaecati! Maxime enim quaerat sit nulla ipsam obcaecati, odit veniam
+                        explicabo esse!</i>
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b> Web Development</b></span> <br> Web-Page Development</li>
+
+                            <li><span> <b>Language Knowledge</b> </span> <br> CSS , JAVASCRIPT <br> Python <br> C++</li>
+                            <li><span> <b> Desiging</b></span> <br> Web-Page Desiging</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span><b>Experience</b></span> <br> Fresher</li>
+                            <li><span><b>Editing Software</b></span> <br> Adobe Premire Pro <br> Filmora <br> VS Code</li>
+                            <li><span><b>Learnig Attitude</b></span> <br> Work On HTML CSS JAVASCRIPT Project<br>fact's about Technology </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>2019-2023</b></span> <br> Pursing B.Tech Computer Science With Artificial Intelligence Specialization</li>
+                            <li><span><b>2017-2018</b> </span><br> 12th<br> Rao Phalad Singh Public School <br> Rewari (HR) <br> </li>
+                            <li><span><b>2015-2016</b></span> <br>10th<br> Rao Phalad Singh Public School <br>Rewari (HR)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Working</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sunt, magni dolores dicta exercitationem cum neque amet, fuga autem fugiat consectetur incidunt atque molestias quod qui laborum et libero officiis iste odit suscipit
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-accusoft"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sunt, magni dolores dicta exercitationem cum neque amet, fuga autem fugiat consectetur incidunt atque molestias quod qui laborum et libero officiis iste odit suscipit
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-flatbed-suitcase"></i>
+
+                    <h2>Travelling</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere sunt, magni dolores dicta exercitationem cum neque amet, fuga autem fugiat consectetur incidunt atque molestias quod qui laborum et libero officiis iste odit suscipit
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- --------profile--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png.jpg" alt="Work1_image">
+                    <div class="layer">
+                        <h3>Free Lancing</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam impedit sit, eos veritatis in soluta possimus praesentium nemo, excepturi dolor debitis pariatur quibusdam esse, dignissimos cum reprehenderit architecto libero
+                            ab!
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work2.png.png" alt="Work2_image">
+                    <div class="layer">
+                        <h3>Free Lancing</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam impedit sit, eos veritatis in soluta possimus praesentium nemo, excepturi dolor debitis pariatur quibusdam esse, dignissimos cum reprehenderit architecto libero
+                            ab!
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.png.jpg" alt="Work3_image">
+                    <div class="layer">
+                        <h3>Free Lancing</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam impedit sit, eos veritatis in soluta possimus praesentium nemo, excepturi dolor debitis pariatur quibusdam esse, dignissimos cum reprehenderit architecto libero
+                            ab!
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Know more</a>
+
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope-circle-check"></i>gsharmafp@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9643063309</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright@made by Gaurav</p>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
